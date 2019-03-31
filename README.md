@@ -4,6 +4,7 @@ Create your own stand alone access point with the Raspberry Pi!
 
 **Requirements**:
 - Raspberry Pi
+- A way to run the script on the Pi
 
 **Instructions**:
 - If you haven't yet setup the Raspberry Pi as a stand alone access point, run the init script:
