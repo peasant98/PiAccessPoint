@@ -14,8 +14,9 @@ Create your own stand alone access point with the Raspberry Pi!
 
 - The other script, `network.sh`, is for switching from the stand alone network to the original settings, and vice versa.
 
-- Running `./network.sh 1` will bring you to the stand alone network
+- Running `./network.sh 1` will bring you to the stand alone network.
 - Running `./network.sh 0` will essentially reverse the steps from above. 
+
 
 **Note**:
 
