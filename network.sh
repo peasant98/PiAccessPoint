@@ -23,7 +23,7 @@ fi
 # everything here got past the tests; is a 1 or a 0.
 
 # 1 is to switch to its own wifi network.
-if [ "$RES" -eq 1]; then
+if [ "$RES" -eq 1 ]; then
     # own wifi network
     sudo systemctl mask networking.service
     sudo systemctl mask dhcpcd.service
