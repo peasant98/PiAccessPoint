@@ -42,7 +42,7 @@ else
     sudo unlink /etc/resolv.conf
     sudo systemctl disable systemd-resolved.service
     sudo systemctl disable systemd-networkd.service
-    sed -i '/resolvconf=NO/d' filename 
+    sudo sed -i '/resolvconf=NO/d' /etc/resolvconf.conf
     sudo mv /etc/network/interfaces~ /etc/network/interfaces
     sudo systemctl unmask dhcpcd.service
     sudo systemctl unmask networking.service
