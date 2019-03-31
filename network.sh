@@ -27,7 +27,7 @@ if [ "$RES" -eq 1]; then
     # own wifi network
     sudo systemctl mask networking.service
     sudo systemctl mask dhcpcd.service
-    mv /etc/network/interfaces /etc/network/interfaces~
+    sudo mv /etc/network/interfaces /etc/network/interfaces~
     sudo sed -i '1i resolvconf=NO' /etc/resolvconf.conf
     sudo systemctl enable systemd-networkd.service
     sudo systemctl enable systemd-resolved.service
