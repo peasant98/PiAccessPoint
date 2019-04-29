@@ -8,8 +8,10 @@ Create your own stand alone access point with the Raspberry Pi!
 
 **Instructions**:
 - Based on your OS:
-- **Rasbpian**:
-    - ``
+- **Raspbian**:
+    - `cd Raspbian`
+- **Ubuntu Mate**
+    - `cd Ubuntu_Mate`
 - If you haven't yet setup the Raspberry Pi as a stand alone access point, run the init script:
 - `chmod <permissions you want> init.sh`
 - Choose your own Passkey and SSID for the standalone network.
@@ -24,4 +26,4 @@ Create your own stand alone access point with the Raspberry Pi!
 
 **Note**:
 
-If my Pi automatically connects to my home's Wi-Fi, running `./network.sh 1` will disconnect it and create the access point, whereas `./network.sh 0` will reverse the steps and bring me right back to connecting with the home Wi-Fi.
+If your Pi automatically connects to your home's Wi-Fi, running `./network.sh 1` will disconnect it and create the access point, whereas `./network.sh 0` will reverse the steps and bring you right back to connecting with the home Wi-Fi.
