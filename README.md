@@ -3,10 +3,13 @@
 Create your own stand alone access point with the Raspberry Pi!
 
 **Requirements**:
-- Raspberry Pi
+- Raspberry Pi with either Rasbpian Stretch or Ubuntu Mate (tested on)
 - A way to run the script on the Pi
 
 **Instructions**:
+- Based on your OS:
+- **Rasbpian**:
+    - ``
 - If you haven't yet setup the Raspberry Pi as a stand alone access point, run the init script:
 - `chmod <permissions you want> init.sh`
 - Choose your own Passkey and SSID for the standalone network.
