@@ -7,6 +7,7 @@ Create your own stand alone access point with the Raspberry Pi!
 - A way to run the script on the Pi (example: already ssh'ed in)
 
 **Instructions**:
+- `git clone https://github.com/peasant98/PiAccessPoint.git`
 - Based on your OS:
 - **Raspbian**:
     - `cd Raspbian`
