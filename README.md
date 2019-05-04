@@ -10,7 +10,7 @@ Create your own stand alone access point with the Raspberry Pi!
 - Based on your OS:
 - **Raspbian**:
     - `cd Raspbian`
-- **Ubuntu Mate**
+- **Ubuntu Mate**:
     - `cd Ubuntu_Mate`
 - If you haven't yet setup the Raspberry Pi as a stand alone access point, run the init script:
 - `chmod <permissions you want> init.sh`
