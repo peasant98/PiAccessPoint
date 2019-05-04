@@ -1,6 +1,6 @@
 # PiAccessPoint
 
-Create your own stand alone access point with the Raspberry Pi!
+Create your own stand-alone Wi-Fi access point with the Raspberry Pi!
 
 **Requirements**:
 - Raspberry Pi with either Rasbpian Stretch or Ubuntu Mate (tested on)
