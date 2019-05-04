@@ -4,7 +4,7 @@ Create your own stand alone access point with the Raspberry Pi!
 
 **Requirements**:
 - Raspberry Pi with either Rasbpian Stretch or Ubuntu Mate (tested on)
-- A way to run the script on the Pi
+- A way to run the script on the Pi (example: already ssh'ed in)
 
 **Instructions**:
 - Based on your OS:
